@@ -49,5 +49,27 @@ number = String(number);
 
 console.log(number);
 console.log(typeof number);
+console.log("=========operations=========");
 
-//
+// ****=================OPERATIONS==================****
+let smtg = 3;
+let negSmtg = -smtg;
+console.log(negSmtg);
+
+console.log(2 + 2);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+console.log(((2 + 4) * 2) % 5);
+
+let num3,
+  num4,
+  num5 = "sai";
+
+let counter = 100;
+++counter;
+console.log(counter);
+
+//prefix : ++counter ; postfix counter++ use docs to know more
